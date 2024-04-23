@@ -154,8 +154,8 @@ class _ChatUiState extends State<ChatUi> {
                       child: TextField(
                         autofocus: true,
                         focusNode: _textFieldFocus,
-                        decoration: textFieldDecoration(
-                            context, 'Ask anything about UTP...'),
+                        decoration:
+                            textFieldDecoration(context, 'Ask anything...'),
                         controller: _textController,
                         onSubmitted: (String value) {
                           _sendChatMessage(value);

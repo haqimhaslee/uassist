@@ -80,7 +80,16 @@ class _UpdateinfoUiState extends State<UpdateinfoUi> {
                             right: 5,
                           ),
                           child: Text(
-                            '• NEW UI Update - IRC(Information Resource Centre)',
+                            '• NEW AI Update - IRC(Information Resource Centre)',
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.only(
+                            left: 5,
+                            right: 5,
+                          ),
+                          child: Text(
+                            '• Bug fixes 🐛',
                           ),
                         ),
                       ],
