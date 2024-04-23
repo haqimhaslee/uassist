@@ -68,6 +68,52 @@ class _UpdateinfoUiState extends State<UpdateinfoUi> {
                             bottom: 20,
                           ),
                           child: Text(
+                            '24.4.2024',
+                            style: TextStyle(
+                              fontSize: 15,
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.only(
+                            left: 5,
+                            right: 5,
+                          ),
+                          child: Text(
+                            '• NEW UI Update - IRC(Information Resource Centre)',
+                          ),
+                        ),
+                      ],
+                    )),
+              )),
+          Padding(
+              padding: EdgeInsets.only(
+                top: 0,
+                left: 25,
+                right: 25,
+                bottom: 0,
+              ),
+              child: Card(
+                elevation: 0,
+                child: Padding(
+                    padding: EdgeInsets.only(
+                      top: 0,
+                      left: 25,
+                      right: 25,
+                      bottom: 20,
+                    ),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Padding(
+                          padding: EdgeInsets.only(
+                            top: 20,
+                            left: 5,
+                            right: 5,
+                            bottom: 20,
+                          ),
+                          child: Text(
                             '23.4.2024',
                             style: TextStyle(
                               fontSize: 15,
@@ -80,7 +126,7 @@ class _UpdateinfoUiState extends State<UpdateinfoUi> {
                             right: 5,
                           ),
                           child: Text(
-                            '• NEW UI Update',
+                            '• Major UI Update - Screen size responsive, new drawer for Navigation Drawer, Material You Adaptive Color, NEW Loading animation widget, AppBar redesign, NEW animation on auto-scrolling when receiving data from AI model',
                           ),
                         ),
                         Padding(
@@ -89,9 +135,36 @@ class _UpdateinfoUiState extends State<UpdateinfoUi> {
                             right: 5,
                           ),
                           child: Text(
-                            '• NEW AI Models',
+                            '• Renew API key',
                           ),
-                        )
+                        ),
+                        Padding(
+                          padding: EdgeInsets.only(
+                            left: 5,
+                            right: 5,
+                          ),
+                          child: Text(
+                            '• Migrating to new Generative AI package',
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.only(
+                            left: 5,
+                            right: 5,
+                          ),
+                          child: Text(
+                            '• Migrating to new hosting addresses',
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.only(
+                            left: 5,
+                            right: 5,
+                          ),
+                          child: Text(
+                            '• Old model fixes (Data optimisation)',
+                          ),
+                        ),
                       ],
                     )),
               )),
@@ -135,18 +208,9 @@ class _UpdateinfoUiState extends State<UpdateinfoUi> {
                             right: 5,
                           ),
                           child: Text(
-                            '• NEW UI Update',
+                            "• Added 'Release updates' tracker page",
                           ),
                         ),
-                        Padding(
-                          padding: EdgeInsets.only(
-                            left: 5,
-                            right: 5,
-                          ),
-                          child: Text(
-                            '• NEW AI Models',
-                          ),
-                        )
                       ],
                     )),
               )),
@@ -190,18 +254,9 @@ class _UpdateinfoUiState extends State<UpdateinfoUi> {
                             right: 5,
                           ),
                           child: Text(
-                            '• NEW UI Update',
+                            '• Added Licenses pages',
                           ),
                         ),
-                        Padding(
-                          padding: EdgeInsets.only(
-                            left: 5,
-                            right: 5,
-                          ),
-                          child: Text(
-                            '• NEW AI Models',
-                          ),
-                        )
                       ],
                     )),
               )),
@@ -245,7 +300,7 @@ class _UpdateinfoUiState extends State<UpdateinfoUi> {
                             right: 5,
                           ),
                           child: Text(
-                            '• NEW UI Update',
+                            '• Minor UI Update',
                           ),
                         ),
                         Padding(
@@ -254,7 +309,7 @@ class _UpdateinfoUiState extends State<UpdateinfoUi> {
                             right: 5,
                           ),
                           child: Text(
-                            '• NEW AI Models',
+                            '• Bug fixes and performance optimisation',
                           ),
                         )
                       ],
@@ -300,7 +355,7 @@ class _UpdateinfoUiState extends State<UpdateinfoUi> {
                             right: 5,
                           ),
                           child: Text(
-                            '• NEW UI Update',
+                            '• Minor UI Update',
                           ),
                         ),
                         Padding(
@@ -309,7 +364,7 @@ class _UpdateinfoUiState extends State<UpdateinfoUi> {
                             right: 5,
                           ),
                           child: Text(
-                            '• NEW AI Models',
+                            '• NEW AI Models - RV,SSD,SAS',
                           ),
                         )
                       ],
@@ -355,7 +410,7 @@ class _UpdateinfoUiState extends State<UpdateinfoUi> {
                             right: 5,
                           ),
                           child: Text(
-                            '• NEW UI Update',
+                            '• Public trial release',
                           ),
                         ),
                         Padding(
@@ -364,7 +419,7 @@ class _UpdateinfoUiState extends State<UpdateinfoUi> {
                             right: 5,
                           ),
                           child: Text(
-                            '• NEW AI Models',
+                            '• Migrating from PaLM model to Gemini 1.0 Pro',
                           ),
                         )
                       ],
@@ -410,7 +465,7 @@ class _UpdateinfoUiState extends State<UpdateinfoUi> {
                             right: 5,
                           ),
                           child: Text(
-                            '• NEW UI Update',
+                            '• Imported GenAI package (3rd party)',
                           ),
                         ),
                         Padding(
@@ -419,7 +474,7 @@ class _UpdateinfoUiState extends State<UpdateinfoUi> {
                             right: 5,
                           ),
                           child: Text(
-                            '• NEW AI Models',
+                            '• Integrating into web application',
                           ),
                         )
                       ],
@@ -465,7 +520,7 @@ class _UpdateinfoUiState extends State<UpdateinfoUi> {
                             right: 5,
                           ),
                           child: Text(
-                            '• NEW UI Update',
+                            '• Internal preview',
                           ),
                         ),
                         Padding(
@@ -474,7 +529,7 @@ class _UpdateinfoUiState extends State<UpdateinfoUi> {
                             right: 5,
                           ),
                           child: Text(
-                            '• NEW AI Models',
+                            '• WE STARTED FROM HERE 🙃',
                           ),
                         )
                       ],
