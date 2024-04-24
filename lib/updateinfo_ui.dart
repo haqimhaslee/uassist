@@ -68,6 +68,61 @@ class _UpdateinfoUiState extends State<UpdateinfoUi> {
                             bottom: 20,
                           ),
                           child: Text(
+                            '25.4.2024',
+                            style: TextStyle(
+                              fontSize: 15,
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.only(
+                            left: 5,
+                            right: 5,
+                          ),
+                          child: Text(
+                            '• NEW AI Update - FIN(Finance), PRO(Asset Disposal), REG(ARM,UPD,SA)',
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.only(
+                            left: 5,
+                            right: 5,
+                          ),
+                          child: Text(
+                            '• AI Model Optimisation - Data usage reduction & reducing token utilization',
+                          ),
+                        ),
+                      ],
+                    )),
+              )),
+          Padding(
+              padding: EdgeInsets.only(
+                top: 0,
+                left: 25,
+                right: 25,
+                bottom: 0,
+              ),
+              child: Card(
+                elevation: 0,
+                child: Padding(
+                    padding: EdgeInsets.only(
+                      top: 0,
+                      left: 25,
+                      right: 25,
+                      bottom: 20,
+                    ),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Padding(
+                          padding: EdgeInsets.only(
+                            top: 20,
+                            left: 5,
+                            right: 5,
+                            bottom: 20,
+                          ),
+                          child: Text(
                             '24.4.2024',
                             style: TextStyle(
                               fontSize: 15,

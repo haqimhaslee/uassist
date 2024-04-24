@@ -198,7 +198,7 @@ class _MainPageState extends State<MainPage> {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Card(
-                  elevation: 1,
+                  elevation: 3,
                   color: Theme.of(context).colorScheme.background,
                   child: SizedBox(
                     height: width > 680 ? height - 100 : height - 20,
