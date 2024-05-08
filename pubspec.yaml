@@ -14,7 +14,7 @@ dependencies:
   cupertino_icons: ^1.0.6
   dynamic_color: ^1.5.4
   shimmer: ^3.0.0
-  google_generative_ai: ^0.2.2
+  google_generative_ai: ^0.3.3
   loading_animation_widget: ^1.2.0+4
   flutter_markdown: ^0.6.18+3
   url_launcher: ^6.2.6

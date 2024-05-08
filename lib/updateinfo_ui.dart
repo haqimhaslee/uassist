@@ -68,6 +68,61 @@ class _UpdateinfoUiState extends State<UpdateinfoUi> {
                             bottom: 20,
                           ),
                           child: Text(
+                            '8.5.2024',
+                            style: TextStyle(
+                              fontSize: 15,
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.only(
+                            left: 5,
+                            right: 5,
+                          ),
+                          child: Text(
+                            '• NEW Generative AI dependency package update (from 0.2.2 to 0.3.3)',
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.only(
+                            left: 5,
+                            right: 5,
+                          ),
+                          child: Text(
+                            '• NEW Generative AI foundation model (gemini-1.0-pro-001)',
+                          ),
+                        ),
+                      ],
+                    )),
+              )),
+          Padding(
+              padding: EdgeInsets.only(
+                top: 0,
+                left: 25,
+                right: 25,
+                bottom: 0,
+              ),
+              child: Card(
+                elevation: 0,
+                child: Padding(
+                    padding: EdgeInsets.only(
+                      top: 0,
+                      left: 25,
+                      right: 25,
+                      bottom: 20,
+                    ),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Padding(
+                          padding: EdgeInsets.only(
+                            top: 20,
+                            left: 5,
+                            right: 5,
+                            bottom: 20,
+                          ),
+                          child: Text(
                             '25.4.2024',
                             style: TextStyle(
                               fontSize: 15,
