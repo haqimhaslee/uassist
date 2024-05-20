@@ -22,7 +22,7 @@ class _ChatUiState extends State<ChatUi> {
   void initState() {
     super.initState();
     _model = GenerativeModel(
-      model: 'gemini-1.0-pro-001',
+      model: 'gemini-1.5-flash-latest',
       apiKey: 'AIzaSyCRKcnEzJwJJYalb1B4bAdVQqOsB_5W3lw',
     );
     _chat = _model.startChat(history: [
@@ -293,7 +293,7 @@ class MessageWidget extends StatelessWidget {
             decoration: BoxDecoration(
               color: isFromUser
                   ? Theme.of(context).colorScheme.primaryContainer
-                  : Theme.of(context).colorScheme.surfaceVariant,
+                  : Theme.of(context).colorScheme.surfaceContainerHighest,
               borderRadius: BorderRadius.circular(18),
             ),
             padding: const EdgeInsets.symmetric(

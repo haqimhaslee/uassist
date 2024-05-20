@@ -25,9 +25,9 @@ class _MainPageState extends State<MainPage> {
     double width = MediaQuery.of(context).size.width;
     double height = MediaQuery.of(context).size.height;
     return Scaffold(
-        backgroundColor: Theme.of(context).colorScheme.background,
+        backgroundColor: Theme.of(context).colorScheme.surface,
         appBar: AppBar(
-          backgroundColor: Theme.of(context).colorScheme.background,
+          backgroundColor: Theme.of(context).colorScheme.surface,
           elevation: 0,
           scrolledUnderElevation: 0,
           title: Row(children: [
@@ -62,9 +62,9 @@ class _MainPageState extends State<MainPage> {
               : null,
         ),
         drawer: NavigationDrawer(
-          surfaceTintColor: Theme.of(context).colorScheme.background,
-          backgroundColor: Theme.of(context).colorScheme.background,
-          shadowColor: Theme.of(context).colorScheme.background,
+          surfaceTintColor: Theme.of(context).colorScheme.surface,
+          backgroundColor: Theme.of(context).colorScheme.surface,
+          shadowColor: Theme.of(context).colorScheme.surface,
           onDestinationSelected: (i) => setState(() => _selectedIndex = i),
           selectedIndex: _selectedIndex,
           children: <Widget>[
@@ -129,10 +129,9 @@ class _MainPageState extends State<MainPage> {
                 ? SizedBox(
                     width: 200,
                     child: NavigationDrawer(
-                      surfaceTintColor:
-                          Theme.of(context).colorScheme.background,
-                      backgroundColor: Theme.of(context).colorScheme.background,
-                      shadowColor: Theme.of(context).colorScheme.background,
+                      surfaceTintColor: Theme.of(context).colorScheme.surface,
+                      backgroundColor: Theme.of(context).colorScheme.surface,
+                      shadowColor: Theme.of(context).colorScheme.surface,
                       onDestinationSelected: (i) =>
                           setState(() => _selectedIndex = i),
                       selectedIndex: _selectedIndex,
@@ -199,7 +198,7 @@ class _MainPageState extends State<MainPage> {
               children: [
                 Card(
                   elevation: 3,
-                  color: Theme.of(context).colorScheme.background,
+                  color: Theme.of(context).colorScheme.surface,
                   child: SizedBox(
                     height: width > 680 ? height - 100 : height - 20,
                     width: width > 680 ? width - 225 : width - 10,
