@@ -23,7 +23,7 @@ class _ChatUiState extends State<ChatUi> {
     super.initState();
     _model = GenerativeModel(
       model: 'gemini-1.5-flash-latest',
-      apiKey: 'AIzaSyCRKcnEzJwJJYalb1B4bAdVQqOsB_5W3lw',
+      apiKey: 'APIKEY',
     );
     _chat = _model.startChat(history: [
       Content.text(
